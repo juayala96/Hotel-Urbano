@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="618.0" prefWidth="726.0" style="-fx-background-color: #FAE5D3;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.julieta.hotel.controladores.PrincipalControlador">
+   <children>
+      <Button fx:id="btnUsuarios" alignment="BOTTOM_CENTER" layoutX="60.0" layoutY="261.0" mnemonicParsing="false" onAction="#OnBtnUsuariosClick" prefHeight="97.0" prefWidth="124.0" style="-fx-background-color: #F0B27A; -fx-background-radius: 10;" text="USUARIOS">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font>
+      </Button>
+      <FontAwesomeIconView />
+      <Button fx:id="btnClientes" alignment="BOTTOM_CENTER" layoutX="219.0" layoutY="261.0" mnemonicParsing="false" onAction="#OnBtnClientesClick" prefHeight="97.0" prefWidth="124.0" style="-fx-background-color: #F0B27A; -fx-background-radius: 10;" text="CLIENTES">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font>
+      </Button>
+      <FontAwesomeIconView glyphName="GROUP" layoutX="93.0" layoutY="322.0" size="60" wrappingWidth="12.0" />
+      <Button fx:id="btnHabitaciones" alignment="BOTTOM_CENTER" layoutX="377.0" layoutY="261.0" mnemonicParsing="false" onAction="#OnBtnHabitacionesClick" prefHeight="97.0" prefWidth="124.0" style="-fx-background-color: #F0B27A; -fx-background-radius: 10;" text="HABITACIONES">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font>
+      </Button>
+      <FontAwesomeIconView glyphName="BED" layoutX="403.0" layoutY="322.0" size="60" wrappingWidth="12.0" />
+      <Button fx:id="btnReservas" alignment="BOTTOM_CENTER" layoutX="537.0" layoutY="261.0" mnemonicParsing="false" onAction="#OnBtnReservasClick" prefHeight="97.0" prefWidth="124.0" style="-fx-background-color: #F0B27A; -fx-background-radius: 10;" text="RESERVAS">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font>
+      </Button>
+      <FontAwesomeIconView glyphName="CALENDAR" layoutX="568.0" layoutY="322.0" size="60" wrappingWidth="12.0" />
+      <FontAwesomeIconView glyphName="CHILD" layoutX="260.0" layoutY="322.0" size="60" wrappingWidth="12.0" />
+      <ImageView fitHeight="97.0" fitWidth="82.0" layoutX="122.0" layoutY="77.0">
+         <image>
+            <Image url="@../../../../../../../../../logo2.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="212.0" layoutY="96.0" text="Hotel Urbano">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="51.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCerrarSesion" layoutX="555.0" layoutY="568.0" mnemonicParsing="false" onAction="#OnBtnCerrarSesionClick" style="-fx-background-color: #F0B27A; -fx-border-color: BLACK;" text="CERRAR SESIÓN">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

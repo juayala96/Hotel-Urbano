@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="618.0" prefWidth="726.0" style="-fx-background-color: #FAE5D3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.julieta.hotel.controladores.HabitacionesControlador">
+    <children>
+        <Button fx:id="btnVolver" layoutX="226.0" layoutY="512.0" mnemonicParsing="false" onAction="#OnBtnVolver" prefHeight="24.0" prefWidth="83.0" style="-fx-background-color: #F0B27A; -fx-border-color: BLACK;" text="VOLVER">
+            <font>
+                <Font name="Franklin Gothic Demi" size="12.0" />
+            </font>
+        </Button>
+        <FontAwesomeIconView layoutY="-10.0" wrappingWidth="12.0" />
+        <Label layoutX="191.0" layoutY="76.0" text="NUEVA HABITACIÓN">
+            <font>
+                <Font name="Copperplate Gothic Bold" size="30.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnGuardar" layoutX="413.0" layoutY="512.0" mnemonicParsing="false" onAction="#OnBtnGuardarClick" prefHeight="24.0" prefWidth="83.0" style="-fx-background-color: #F0B27A; -fx-border-color: BLACK;" text="GUARDAR">
+            <font>
+                <Font name="Franklin Gothic Demi" size="12.0" />
+            </font>
+        </Button>
+        <Label layoutX="227.0" layoutY="198.0" text="Piso:" />
+        <Label layoutX="223.0" layoutY="240.0" text="Capacidad:" />
+        <Label layoutX="225.0" layoutY="154.0" text="Número:" />
+        <Label layoutX="224.0" layoutY="280.0" text="Cantidad de camas:" />
+        <Label layoutX="226.0" layoutY="324.0" text="Tipo de cama:" />
+        <Label layoutX="226.0" layoutY="363.0" text="Característica:" />
+        <Label layoutX="231.0" layoutY="409.0" text="Precio:" />
+        <TextField fx:id="txtNumeroHabitacion" layoutX="346.0" layoutY="150.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="txtPisoHabitacion" layoutX="346.0" layoutY="194.0" prefHeight="25.0" prefWidth="58.0" />
+        <TextField fx:id="txtCapacidadHabitacion" layoutX="346.0" layoutY="236.0" prefHeight="25.0" prefWidth="58.0" />
+      <ComboBox fx:id="cbTipoamas" layoutX="346.0" layoutY="320.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbCaracteristica" layoutX="346.0" layoutY="359.0" prefWidth="150.0" />
+      <TextField fx:id="txtPrecio" layoutX="346.0" layoutY="405.0" prefHeight="25.0" prefWidth="83.0" />
+      <TextField fx:id="txtCantCamas" layoutX="346.0" layoutY="276.0" prefHeight="25.0" prefWidth="58.0" />
+      <Label layoutX="228.0" layoutY="452.0" text="Estado:" />
+      <ComboBox fx:id="cbEstado" layoutX="346.0" layoutY="448.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>
